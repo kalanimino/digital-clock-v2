@@ -44,13 +44,11 @@ p {
 	margin: 0;
 }
 
-
-
 #yeet {
 	color: #00FF01;
 	background-color: black;
 	border: 1px #00FF01;
-	padding-left: 9%;
+	margin-left: 6.7%;
 }
 #yeet:focus{
 	border: 1px solid transparent;
@@ -77,7 +75,7 @@ p {
 	display: table;
 	margin: auto;
 	text-align: center;
-	font-size: 5.3rem;
+	font-size: 5.2rem;
 	}
 
 	#container{
@@ -89,6 +87,16 @@ p {
 		display:inline-block;
 	}
 
+}
+
+@media(max-height:800px){
+	#container{
+		width: 44%;
+		height: 42%;
+	}
+	#lol{
+		font-size:4.8rem;
+	}
 }
 
 @media(max-width:803px) {
