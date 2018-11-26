@@ -1,0 +1,141 @@
+@font-face { 
+    font-family: liquidCrsytal; 
+	src: url(font/LiquidCrystal-Normal.otf);
+}
+
+* { 
+	font-family: liquidCrsytal;
+}
+
+
+body,html, #root {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	background: black;
+}
+
+#root {
+	display: flex;
+	background: black;
+	background-size: 400%;
+}
+
+#container {
+	display: inline-flex;
+	width: 36%;
+	height: 34%;
+	margin: auto;
+	color: #00FF01;
+	justify-content: center;
+	border: 8px solid #00FF01;
+	border-radius: 2rem;
+	overflow: hidden;
+}
+
+#lol {
+	display: table;
+	margin: auto;
+	text-align: center;
+	font-size: 5rem;
+}
+
+p {
+	margin: 0;
+}
+
+
+
+#yeet {
+	color: #00FF01;
+	background-color: black;
+	border: 1px #00FF01;
+	padding-left: 9%;
+}
+#yeet:focus{
+	border: 1px solid transparent;
+}
+
+#sec{
+	font-size: 2rem;
+	float:right;
+	float:bottom;
+	margin-left: 0;
+	display: inline-block;
+}
+
+#wek{
+	font-size: 2rem;
+	float:left;
+	float:bottom;
+	margin-left: 0;
+	display: inline-block;
+}
+
+@media(min-width:720px) {
+	#lol {
+	display: table;
+	margin: auto;
+	text-align: center;
+	font-size: 5.3rem;
+	}
+
+	#container{
+		width: 36%;
+		height: 38%;
+	}
+
+	#yeet{
+		display:inline-block;
+	}
+
+}
+
+@media(max-width:803px) {
+	#lol {
+		display: table;
+		margin: auto;
+		text-align: center;
+		font-size: 3.5rem;
+		}
+	
+	#container{
+		width: 90%;
+		height: 38%;
+		}
+}
+
+@media(max-width:1316px) {
+	#container{
+		width:45%;
+		height:35%; 
+	}
+}
+
+@media(max-width:1104px) {
+	#container{
+		width: 50%;
+		height:40%;
+	}
+}
+
+@media(max-width:1000px) {
+	#container{
+		width: 52%;
+		height: 38%;
+	}
+}
+
+@media(max-width:550px){
+	#container{
+		width:95%;
+		height: 40%;
+	}
+}
+
+@media(max-width:956px){
+	#container{
+		width: 55%;
+		height: 32%;
+	}
+}
