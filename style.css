@@ -194,3 +194,16 @@ p {
 		font-size:4rem;
 	}
 }
+
+@media(max-height:537px){
+	#container{
+		height:70%
+	}
+}
+
+@media(max-height:286px){
+	#container{
+		height:93%;
+		width:100%
+	}
+}
