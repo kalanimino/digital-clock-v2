@@ -29,7 +29,7 @@ body,html, #root {
 	color: #00FF01;
 	justify-content: center;
 	border: 8px solid #00FF01;
-	border-radius: 2rem;
+	border-radius: 1.5rem;
 	overflow: hidden;
 }
 
@@ -75,7 +75,7 @@ p {
 
 @media(max-height:900px){
 	#container{
-		height:44%;
+		height:42%;
 		width:44%;
 	}
 
@@ -206,4 +206,12 @@ p {
 		height:93%;
 		width:100%
 	}
+}
+
+#tz{
+	background-color: black;
+	border: 2px solid #00FF01;
+	color:#00FF01;
+	border-radius:0.2rem;
+	margin-bottom:1%;
 }
