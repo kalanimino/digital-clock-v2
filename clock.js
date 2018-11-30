@@ -65,13 +65,17 @@ function button() {
         document.querySelector("#container").style.borderColor = "#00FF01";
         document.querySelector("#container").style.color = "#00FF01";
         document.querySelector("#yeet").style.color = "#00FF01";
-        document.querySelector("#yeet2").style.color= "#00FF01";
+        document.querySelector("#yeet2").style.color = "#00FF01";
+        // document.querySelector("#tz").style.color = "#00FF01";
+       //  document.querySelector("#tz").style.borderColor = "#00FF01";
       }
       else {
         document.querySelector("#container").style.borderColor = "white";
         document.querySelector("#container").style.color = "white";
         document.querySelector("#yeet").style.color = "white";
-        document.querySelector("#yeet2").style.color= "white"
+        document.querySelector("#yeet2").style.color = "white";
+       // document.querySelector("#tz").style.color = "white";
+        // document.querySelector("#tz").style.borderColor = "white";
       }
 };   
 
